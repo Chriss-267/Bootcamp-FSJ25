@@ -1,0 +1,79 @@
+
+
+
+.body{
+    
+    background: rgb(1, 0, 12);
+    background: linear-gradient(to top, #111115 0%, #14143d 55%, #10203d 100%);
+    color: #fff;
+}
+
+.cabecera .navbar{
+    margin: 1rem;
+}
+
+/*Logo*/
+.navbar h2{
+    font-size: 2rem;
+   
+}
+
+.navbar span{
+    color: #9894ef;
+}
+
+/*Menu navegacion*/
+.cabecera .navbar .menu-navbar{
+    display: flex;
+    width: 35rem;
+    justify-content: space-around;
+    list-style: none;
+   
+}
+
+.menu-navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    
+}
+.menu-navbar li a:hover{
+    color: #ceb53a;
+    transition: 0.5s;
+}
+
+/*Main content*/
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+    gap: 1rem;
+    align-items: center;
+}
+.main-content img{
+    width: 25vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.saludo{
+    font-weight:750;
+    font-size: 3rem;
+}
+.bio span{
+    color: #ceb53a;
+}
+.bio p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+

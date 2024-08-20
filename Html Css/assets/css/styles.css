@@ -1,0 +1,186 @@
+
+html{
+    font-size: 62.5%; /*para usar rem a 1 0 10px*/
+}
+
+
+body{
+    font-size: 16px; /*para usar rem a 1 0 10px*/
+    
+    background-image: url(../Images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+   
+    
+    
+}
+
+
+
+/*container*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    
+     
+}
+/*Header principal*/
+.container header{
+    text-align: center;
+    height: 15vh;
+   
+}
+
+.container .header .img-container{
+    height: 18vh;
+}
+
+.container .header .img-container .img-logo{
+    height: 12vh;
+}
+
+/*Navegacion*/
+
+.navegacion-principal{
+    width: 35vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}   
+
+.navegacion-principal a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    transition: 0.5s;
+}
+
+.navegacion-principal a:hover{
+    color: #f8870e;
+    text-decoration: underline;
+    font-size: 2rem;
+    transition: 0.5s;
+
+}
+
+/* principal*/
+.principal{
+    margin: 4rem auto 3.5rem auto;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.principal h1{
+    color:#fff;
+    font-size: 6rem;
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 0;
+    transition: 0.5s;
+    
+}
+
+.principal h1:hover{
+    text-shadow: 0.3rem 0.5rem 0rem #f8870e;
+    transition: 0.5s;
+   
+}
+
+.principal p{
+    
+    color: rgb(187, 182, 182);
+
+    
+    font-family:"Montserrat", sans-serif;
+    font-size: 1.5rem;
+   
+}
+
+.principal p strong a{
+    color:#fff; 
+    text-decoration: none;
+    text-shadow: 0.09rem 0.09rem 0rem #f8870e;
+
+    
+}
+
+
+
+/*Pie de pagina*/
+
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    color:#fff ;
+           
+}
+/*media  querie para tablet*/
+@media (min-width: 768px) and (max-width:992px){
+    .navegacion-principal{
+        width: 60vw;
+    }
+    .principal{
+        width: 60vw;
+    }
+   
+   
+}
+
+/* media para smartphones*/
+@media (min-width:530px ) and (max-width:750px){
+    .navegacion-principal{
+        width: 75vw;
+       
+    }
+}
+
+@media (min-width: 310px) and (max-width:529px){
+     .navegacion-principal{   
+        justify-content:space-evenly;
+        width: 100vw;
+        
+     } 
+     .navegacion-principal a{
+        font-size: 1.5rem;
+     }
+
+     .container{
+        
+        width: 100vw;
+     }
+
+     .principal{
+        width: 100vw;
+     }
+     .principal p{
+        width: 30rem;
+        text-align: center;
+     }
+
+     .mapa{
+        width: 30rem;
+        height: 20rem;
+     }
+
+     .footer{
+        
+        font-size: 1.3rem;
+     }
+     
+    
+   
+     
+}
+
+      
+
+
+
+
